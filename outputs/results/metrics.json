@@ -1,0 +1,43 @@
+{
+  "classification": {
+    "train_rows": 2128,
+    "test_rows": 532,
+    "baseline_persistence": {
+      "accuracy": 0.9473684210526315,
+      "recall_exceeds": 0.8541666666666666
+    },
+    "baseline_majority_class": {
+      "accuracy": 0.8195488721804511,
+      "recall_exceeds": 0.0
+    },
+    "cv_mean_recall_exceeds": 0.22823529411764704,
+    "test": {
+      "accuracy": 0.9473684210526315,
+      "precision_exceeds": 0.8541666666666666,
+      "recall_exceeds": 0.8541666666666666,
+      "confusion_matrix": {
+        "tn": 422,
+        "fp": 14,
+        "fn": 14,
+        "tp": 82
+      }
+    }
+  },
+  "regression": {
+    "train_rows": 2128,
+    "test_rows": 532,
+    "baseline_persistence": {
+      "mae": 4.685643796992481,
+      "rmse": 7.558080507051748
+    },
+    "baseline_mean": {
+      "mae": 13.438487085017526,
+      "rmse": 19.351819805718026
+    },
+    "test": {
+      "mae": 4.554514306599831,
+      "rmse": 7.29887683845001,
+      "r2": 0.8470697668642236
+    }
+  }
+}

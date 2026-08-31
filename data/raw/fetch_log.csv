@@ -1,0 +1,6 @@
+source,endpoint,location,latitude,longitude,parameters,start_date,end_date,num_rows,output_file,retrieved_at
+Open-Meteo Air Quality API,https://air-quality-api.open-meteo.com/v1/air-quality,chiang_mai,18.7883,98.9853,"pm2_5,pm10,carbon_monoxide,dust",2023-01-01,2026-08-23,31944,air_quality_chiang_mai.json,2026-08-23T09:55:59+00:00
+Open-Meteo Archive API (ERA5 reanalysis),https://archive-api.open-meteo.com/v1/archive,chiang_mai,18.7883,98.9853,"temperature_2m,relative_humidity_2m,wind_speed_10m,wind_direction_10m,precipitation,surface_pressure",2023-01-01,2026-08-23,31944,weather_chiang_mai.json,2026-08-23T09:56:02+00:00
+Open-Meteo Air Quality API,https://air-quality-api.open-meteo.com/v1/air-quality,chiang_rai,19.9105,99.8406,"pm2_5,pm10,carbon_monoxide,dust",2023-01-01,2026-08-23,31944,air_quality_chiang_rai.json,2026-08-23T09:56:05+00:00
+Open-Meteo Archive API (ERA5 reanalysis),https://archive-api.open-meteo.com/v1/archive,chiang_rai,19.9105,99.8406,"temperature_2m,relative_humidity_2m,wind_speed_10m,wind_direction_10m,precipitation,surface_pressure",2023-01-01,2026-08-23,31944,weather_chiang_rai.json,2026-08-23T09:56:09+00:00
+Thailand Pollution Control Department (PCD) AQI announcement B.E. 2566,"air4thai.pcd.go.th/webV3/#/AQIInfo (static table, not an API call)",n/a,,,PM2.5 24-hr breakpoints,,,5,pcd_aqi_breakpoints.csv,2026-08-23T09:56:10+00:00

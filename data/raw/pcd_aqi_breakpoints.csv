@@ -1,0 +1,6 @@
+level,pm25_low,pm25_high
+Very good,0,15.0
+Good,15.1,25.0
+Moderate,25.1,37.5
+Beginning to have health effects,37.6,75.0
+Impact on health,75.1,
